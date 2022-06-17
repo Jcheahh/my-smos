@@ -1,6 +1,10 @@
 module Lib
-    ( someFunc
-    ) where
+  ( someFunc,
+  )
+where
+
+import Smos
+import Smos.Default
 
 someFunc :: IO ()
-someFunc = putStrLn "someFunc"
+someFunc = smos defaultConfig
