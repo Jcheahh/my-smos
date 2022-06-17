@@ -36,6 +36,156 @@ packages:
 # forks / in-progress versions pinned to a git hash. For example:
 #
 
+extra-deps:
+  - github: ixmatus/orgmode-parse
+    commit: 1bdfbfe8fb7299724a6f6a122a93b2e96dd839f8
+
+  # Calendar
+  - github: NorfairKing/iCalendar
+    commit: e08c16dceaab4d15b0f00860512018bc64791f07
+
+  - mime-0.4.0.2@sha256:208947d9d1a19d08850be67ecb28c6e776db697f3bba05bd9d682e51a59f241f,983
+
+  - github: NorfairKing/typed-uuid
+    commit: 00fbc7e0380ab2ff72e8fd02323e76f13b7d5b59
+    subdirs:
+      - typed-uuid
+      - genvalidity-typed-uuid
+
+  - github: NorfairKing/mergeful
+    commit: da86a924d6e23cbe07cd0804b45dddb173d743f8
+    subdirs:
+      - mergeful
+      - mergeful-persistent
+      - genvalidity-mergeful
+
+  - github: NorfairKing/looper
+    commit: 6f7d44f563a7e21c3ca5fa24ebe01ed1665426ca
+    subdirs:
+      - looper
+
+  - github: NorfairKing/pretty-relative-time
+    commit: a634358ff274380a12360f7814c3aea46ea35b1b
+
+  - github: NorfairKing/cursor-fuzzy-time
+    commit: 86830e3c14e1ec054e4423742eb34d1c49f9b8b0
+    subdirs:
+      - cursor-fuzzy-time
+      - cursor-fuzzy-time-gen
+
+  - github: NorfairKing/fuzzy-time
+    commit: af42de90fd04d8506a440f439c6628c64d33b7d2
+    subdirs:
+      - fuzzy-time
+      - fuzzy-time-gen
+
+  - github: NorfairKing/dirforest
+    commit: 69e8ae036b047fae105c1fe990e175a7572a3eba
+    subdirs:
+      - dirforest
+      - genvalidity-dirforest
+
+  - github: NorfairKing/cursor-dirforest
+    commit: 6ad5b168e26eb4e647df9f007d812aaf59338d40
+    subdirs:
+      - cursor-dirforest
+      - cursor-dirforest-gen
+      - cursor-dirforest-brick
+
+  - github: NorfairKing/cursor-brick
+    commit: 5c1d1306632403a3dc11ddeda10deee932c0b307
+    subdirs:
+      - cursor-brick
+
+  - github: NorfairKing/cursor
+    commit: 5f18d58d1b34a752d24a94590c2cd35e8b6d557b
+    subdirs:
+      - cursor
+      - cursor-gen
+
+  - github: NorfairKing/autodocodec
+    commit: 00649ce4174bc693de36077ffdfc3e0d7151ef08
+    subdirs:
+      - autodocodec
+      - autodocodec-yaml
+      - autodocodec-schema
+
+  - github: NorfairKing/safe-coloured-text
+    commit: 8aeb52c20f5930c259db2f161853316fc65c9a86
+    subdirs:
+      - safe-coloured-text
+      - safe-coloured-text-gen
+      - safe-coloured-text-layout
+      - safe-coloured-text-layout-gen
+      - safe-coloured-text-terminfo
+
+  - github: NorfairKing/sydtest
+    commit: cf1bb414f0c0ce7bbf64659da94b8cd890c9e536
+    subdirs:
+      - sydtest
+      - sydtest-aeson
+      - sydtest-discover
+      - sydtest-persistent
+      - sydtest-persistent-sqlite
+      - sydtest-servant
+      - sydtest-wai
+      - sydtest-yesod
+
+  - github: NorfairKing/validity
+    commit: 160e846cc5de8e92e6758172da341f5d81fe0374
+    subdirs:
+      - genvalidity
+      - genvalidity-aeson
+      - genvalidity-bytestring
+      - genvalidity-containers
+      - genvalidity-criterion
+      - genvalidity-hspec
+      - genvalidity-hspec-aeson
+      - genvalidity-hspec-binary
+      - genvalidity-hspec-cereal
+      - genvalidity-hspec-hashable
+      - genvalidity-hspec-optics
+      - genvalidity-hspec-persistent
+      - genvalidity-path
+      - genvalidity-persistent
+      - genvalidity-property
+      - genvalidity-scientific
+      - genvalidity-sydtest
+      - genvalidity-sydtest-aeson
+      - genvalidity-sydtest-hashable
+      - genvalidity-sydtest-lens
+      - genvalidity-sydtest-persistent
+      - genvalidity-text
+      - genvalidity-time
+      - genvalidity-unordered-containers
+      - genvalidity-uuid
+      - genvalidity-vector
+      - validity
+      - validity-aeson
+      - validity-bytestring
+      - validity-containers
+      - validity-path
+      - validity-persistent
+      - validity-primitive
+      - validity-scientific
+      - validity-text
+      - validity-time
+      - validity-unordered-containers
+      - validity-uuid
+      - validity-vector
+
+  - github: NorfairKing/yesod-static-remote
+    commit: ed6bf8ef434d49b160429028613a1f6882fccfdf
+
+  - github: NorfairKing/yesod-autoreload
+    commit: 7135e864c0d4a48efeae473ee2761f5168946e58
+
+  - github: NorfairKing/template-haskell-reload
+    commit: 6f8627b45ae63f64ad0a47d1130630aa2e24470d
+    subdirs:
+      - template-haskell-reload
+
+  - github-0.27@sha256:2288b807a4bd97fefeff75487ef5d2ed31f0faa18f306e01e5f5cb498e228208,7033
 # extra-deps:
 # - acme-missiles-0.3
 # - git: https://github.com/commercialhaskell/stack.git
