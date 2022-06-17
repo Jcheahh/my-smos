@@ -18,7 +18,7 @@
 # resolver: ./custom-snapshot.yaml
 # resolver: https://example.com/snapshots/2018-01-01.yaml
 resolver:
-  url: https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/lts/19/11.yaml
+  url: https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/lts/18/16.yaml
 
 # User packages to be built.
 # Various formats can be used as shown in the example below.
@@ -186,6 +186,36 @@ extra-deps:
       - template-haskell-reload
 
   - github-0.27@sha256:2288b807a4bd97fefeff75487ef5d2ed31f0faa18f306e01e5f5cb498e228208,7033
+  - github: NorfairKing/smos
+    commit: 41d5ba29be87ce5c224d4b33790809a4528f81e3
+    subdirs:
+      - smos
+      - smos-data
+      - smos-data-gen
+      - smos-cursor
+      - smos-cursor-gen
+      - smos-report
+      - smos-report-gen
+      - smos-report-cursor
+      - smos-report-cursor-gen
+      - smos-query
+      - smos-single
+      - smos-scheduler
+      - smos-archive
+      - smos-convert-org
+      - smos-calendar-import
+      - smos-docs-site
+      - smos-api
+      - smos-api-gen
+      - smos-server
+      - smos-server-gen
+      - smos-client
+      - smos-sync-client
+      - smos-sync-client-gen
+      - smos-web-style
+      - smos-web-server
+      - smos-notify
+      - smos-github
 # extra-deps:
 # - acme-missiles-0.3
 # - git: https://github.com/commercialhaskell/stack.git
