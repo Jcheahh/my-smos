@@ -24,6 +24,8 @@ dependencies:
 
 library:
   source-dirs: src
+  dependencies:
+    - smos
 
 executables:
   my-smos-exe:
